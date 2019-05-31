@@ -11,8 +11,12 @@ ul, ol {
 list-style: none;
 }
 section{
-  margin-top: 100px;
+  padding-top: 70px;
 }
+.container{
+  padding-bottom: 30px;
+}
+
 
 /* ヘッダー */
 nav{
@@ -27,6 +31,9 @@ nav{
 
 
 /* About */
+#about{
+  background-color: #EEEEEE;
+}
 .aboutPhoto{
   height: 500px;
 }
@@ -34,132 +41,121 @@ nav{
   height: 50px;
 }
 
+/* services */
+#services{
+  background-color: white;
+}
+#services i{
+  padding-bottom: 30px;
+}
+#services h2{
+  padding-bottom: 15px;
+}
+
+/* skills */
+.one{
+  padding-bottom: 30px;
+}
 
 
 
+
+/* portfolio */
+#portfolio{
+  background-color: white;
+}
+.maru{
+	width: 200px;/*幅*/
+	height: 200px;/*高さ*/
+	border-radius: 50%;/*角丸*/
+
+}
+
+
+/* contact */
 #contact{
 	padding-top: 50px;
 }
-
-.arlo_tm_contact_wrap_all{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	background-color: #fff;
-
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */
+.mail{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin: 40px 0;
 }
 
-.arlo_tm_contact_wrap_all .rightbox{
-	width: 60%;
-	height: auto;
-	/* float: right; */
-
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */
+.mail img{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 }
 
-.arlo_tm_contact_wrap{
-	max-width: 830px;
-	height: auto;
-	margin: 0px auto;
-
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */
+.mail p{
+  font-size: 20px;
+  font-weight: 600;
 }
 
-.arlo_tm_contact_wrap .main_input_wrap{
-	margin-bottom: 75px;
-	position: relative;
-	top: -24px;
-}
-.arlo_tm_contact_wrap .main_input_wrap,
-.arlo_tm_contact_wrap .main_input_wrap .wrap{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */
-}
-.arlo_tm_contact_wrap .main_input_wrap .wrap{margin-bottom: 20px;}
-.arlo_tm_contact_wrap .main_input_wrap .wrap input{
-	width: 100%;
-	text-align: left;
-	background-color: transparent;
-	border: none;
-	border-bottom: 1px solid rgba(10,4,37,1);
-	color: #333;
-	padding-left: 0px !important;
-}
-.arlo_tm_contact_wrap .main_input_wrap .wrap input:focus{
-	outline: none;
-}
-.arlo_tm_contact_wrap .main_input_wrap .wrap textarea{
-	width: 100%;
-	height: 80px;
-	text-align: left;
-	background-color: transparent;
-	border: none;
-	border-bottom: 1px solid rgba(10,4,37,1);
-	color: #333;
-	padding-left: 0px !important;
-}
-.arlo_tm_contact_wrap .main_input_wrap .wrap textarea:focus{
-	outline: none;
-}
-.arlo_tm_contact_wrap .arlo_tm_button input{
-	text-decoration: none;
-    color: #fff;
-    background-color: #E3872D;
-    font-weight: 600;
-    font-family: "Montserrat";
-    border-radius: 3px;
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
+.form{
+  width: 90%;
+  margin: 0 auto 25px auto;
+  display: flex;
+  flex-flow: column;
 }
 
-.arlo_tm_contact_wrap .arlo_tm_button input:hover:before{width: 170%;}
-.arlo_tm_contact_wrap .arlo_tm_button input{
-	position: relative;
-	z-index: 2;
-	background-color: #E3872D;
-	padding: 0 20px;
+.form:last-child{
+  margin-bottom: 0;
 }
-.arlo_tm_contact_wrap .arlo_tm_button input:hover{
-	background-color: #7894AA;
+
+.contact label{
+  text-align: left;
+  font-size: 20px;
+}
+
+input, textarea{
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #cacaca;
+  border-radius: 4px;
+}
+
+.submit, .button{
+  width: 40%;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.submit input, .button a{
+  width: 100%;
+  color: #fff;
+  background-color: rgba(255, 0, 64, 0.7);
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.submit input:hover, .button a:hover{
+  background-color: rgba(255, 0, 64, 1);
+}
+
+.button a{
+  text-decoration: none;
+}
+
+.button a:hover{
+  color: #fff;
+  text-decoration: none;
 }
 
 
-.arlo_tm_footer_wrap{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	text-align: left;
-	background-color: #7795AA;
-	padding: 50px 0px;
 
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */
+/* footer */
+footer{
+  background-color: #333333;
 }
-.arlo_tm_footer_wrap p{
-	color: #fff;
-    text-align: left;}
+footer p{
+  color: white;
+  padding: 30px 0 30px 0;
 
-.arlo_tm_footer_wrap p a{
-	text-decoration: none;
-	color: #fff;
-	font-family: "Montserrat";
-	font-weight: 600;
-    position: relative;
 }
