@@ -40,6 +40,9 @@ nav{
 .fa-envelope{
   height: 50px;
 }
+.about-text{
+  padding-top: 20px;
+}
 
 /* services */
 #services{
@@ -67,7 +70,7 @@ nav{
 .maru{
 	width: 200px;/*幅*/
 	height: 200px;/*高さ*/
-  
+
 	border-radius: 50%;/*角丸*/
 
 }
