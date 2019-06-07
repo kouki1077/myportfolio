@@ -17,6 +17,11 @@ section{
   padding-bottom: 30px;
 }
 
+@font-face {
+	font-family: 'MyFont';
+	src: url(SmoothStone-Regular.ttf);
+}
+
 
 /* ヘッダー */
 nav{
@@ -28,7 +33,9 @@ nav{
 .header-right{
   justify-content: flex-end;
 }
-
+.logo{
+  font-family: MyFont;
+}
 
 /* About */
 #about{
@@ -63,16 +70,16 @@ nav{
 
 
 
+
 /* portfolio */
 #portfolio{
   background-color: white;
 }
-.maru{
-	width: 200px;/*幅*/
-	height: 200px;/*高さ*/
-
-	border-radius: 50%;/*角丸*/
-
+.mosya{
+  font-size: 20px;
+}
+.github:hover{
+  text-decoration: none;
 }
 
 
@@ -131,7 +138,7 @@ input, textarea{
 .submit input, .button a{
   width: 100%;
   color: #fff;
-  background-color: rgba(255, 0, 64, 0.7);
+  background-color: #808080;
   padding: 5px;
   border: 1px solid #fff;
   border-radius: 10px;
@@ -140,7 +147,7 @@ input, textarea{
 }
 
 .submit input:hover, .button a:hover{
-  background-color: rgba(255, 0, 64, 1);
+  background-color: #808080;
 }
 
 .button a{
@@ -161,5 +168,6 @@ footer{
 footer p{
   color: white;
   padding: 30px 0 30px 0;
+  margin-bottom: 0;
 
 }
