@@ -42,7 +42,7 @@ nav{
   background-color: #EEEEEE;
 }
 .aboutPhoto{
-  height: 500px;
+  height: 300px;
 }
 .fa-envelope{
   height: 50px;
@@ -53,6 +53,11 @@ nav{
 .fa-github{
   padding-left: 15px;
 }
+/* @media screen and (max-width:768px) {
+  .img_top{
+    text-align: center;
+  }
+} */
 
 /* services */
 #services{
