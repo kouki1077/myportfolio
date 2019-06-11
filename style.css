@@ -84,6 +84,12 @@ nav{
 .port{
   width: 300px;
 }
+@media screen and (max-width:768px) {
+  .img_portfolio{
+    padding-bottom: 20px;
+    text-align: center;
+  }
+}
 
 
 /* contact */
