@@ -53,11 +53,12 @@ nav{
 .fa-github{
   padding-left: 15px;
 }
-/* @media screen and (max-width:768px) {
-  .img_top{
-    text-align: center;
+@media screen and (max-width:768px) {
+  .aboutPhoto{
+    height: 230px;
   }
-} */
+}
+
 
 /* services */
 #services{
@@ -74,7 +75,9 @@ nav{
 .one{
   padding-bottom: 30px;
 }
+@media screen and (max-width:768px) {
 
+}
 
 
 
@@ -93,6 +96,9 @@ nav{
   .img_portfolio{
     padding-bottom: 20px;
     text-align: center;
+  }
+  .port{
+    width: 200px;
   }
 }
 
